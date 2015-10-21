@@ -4,7 +4,9 @@ var bodyParser = require('body-parser');
 
 var app = express();
 
-mongoose.connect('mongodb://localhost/holycow');
+// mongoose.connect('mongodb://localhost/holycow');
+mongoose.connect('mongodb://heroku_9n0n2rnd:72uubbolj9i4a0igbsafp3jdeo@ds041394.mongolab.com:41394/heroku_9n0n2rnd');
+//mongodb://heroku_9n0n2rnd:72uubbolj9i4a0igbsafp3jdeo@ds041394.mongolab.com:41394/heroku_9n0n2rnd
 
 
 var scoreSchema = new mongoose.Schema({
