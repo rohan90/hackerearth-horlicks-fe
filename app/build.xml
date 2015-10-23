@@ -307,6 +307,7 @@
                 <file name="src/layers/StatusLayer.js"/>
                 <file name="src/layers/GameOverLayer.js"/>
                 <file name="src/domain/cow.js"/>
+                <file name="src/domain/projectile.js"/>
                 <file name="main.js"/>
 
             </sources>
