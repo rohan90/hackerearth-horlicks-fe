@@ -14,6 +14,7 @@ var scoreSchema = new mongoose.Schema({
     timeChallenge: Number,
     timePlayed: Number,
     comment: 'string',
+    accuracy: Number,
     createdOn: {type: Date}
 });
 scoreSchema.pre('save', function (next) {
