@@ -302,6 +302,7 @@
                 <file name="src/scenes/playScene.js"/>
                 <file name="src/scenes/highScoresScene.js"/>
                 <file name="src/scenes/helpScene.js"/>
+                <file name="src/scenes/analysisScene.js"/>
                 <file name="src/layers/AnimationLayer.js"/>
                 <file name="src/layers/BackgroundLayer.js"/>
                 <file name="src/layers/StatusLayer.js"/>

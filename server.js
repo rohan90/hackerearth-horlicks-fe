@@ -15,7 +15,8 @@ var scoreSchema = new mongoose.Schema({
     timePlayed: Number,
     comment: 'string',
     accuracy: Number,
-    createdOn: {type: Date}
+    createdOn: {type: Date},
+    tally: JSON
 });
 scoreSchema.pre('save', function (next) {
 
